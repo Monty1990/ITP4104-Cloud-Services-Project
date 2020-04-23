@@ -12,7 +12,7 @@ echo -e "\033[36mCDK synth\033[0m"
 cdk synth
 echo -e "\033[36mCDK deploy VpcStack IAMStack ParametesStack CognitoStack\033[0m"
 cdk deploy VpcStack IAMStack ParametersStack CognitoStack
-echo -e "\033[36mCDK deploy SecurityStack Cloud9Stack \033[0m"
+echo -e "\033[36mCDK deploy SecurityStack Cloud9Stack\033[0m"
 cdk deploy SecurityStack Cloud9Stack 
 echo -e "\033[36mCDK deploy CdnStack DBStack\033[0m"
 cdk deploy CdnStack DBStack  
